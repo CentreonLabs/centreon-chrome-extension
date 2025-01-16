@@ -26,11 +26,14 @@ _Not yet available_
 
 ### Manual Installation
 
-1. Clone this repository to your local machine.
+1. Clone this repository to your local machine:
 ```bash
 git clone https://github.com/CentreonLabs/centreon-chrome-extension.git
 ```
-1. Open Chrome and go to chrome://extensions/.
+1. Open Chrome and go to:
+```bash
+chrome://extensions/
+```
 1. Enable Developer Mode in the top-right corner.
 1. Click the Load unpacked button and select the folder where you cloned the repository.
 1. The extension should now appear in your list of installed extensions.
