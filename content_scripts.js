@@ -148,7 +148,7 @@ async function checkCentreonWebVersion() {
   try {
     // Exit if the current page is not a Centreon instance
     if (!window.webpackChunkcentreon) {
-      //return;
+      return;
     }
 
     const currentVersion = await getCurrentCentreonVersion();
@@ -177,9 +177,9 @@ if (typeof window !== 'undefined') {
   // Browser context
 
   // Run the check on page load
-  window.onload = function () {
+  window.addEventListener('load', function() {
     setTimeout(checkCentreonWebVersion, 1000); // Delay by 1 seconds
-  }
+  });
 } else {
   // Jest test context
 
