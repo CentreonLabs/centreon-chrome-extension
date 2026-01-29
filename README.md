@@ -55,6 +55,14 @@ No further action is required from the user; the extension is designed to work s
 If you'd like to contribute to the project or modify it, follow these steps:
 
 1. Clone the repository and make your changes in the source code.
+1. Install dependencies using pnpm:
+```bash
+pnpm install
+```
+1. Run tests to ensure everything is working correctly:
+```bash
+pnpm test
+```
 1. To test your changes, load the unpacked extension in Chrome by following the Manual Installation steps above.
 1. Reload the extension after making changes to see the effect.
 
